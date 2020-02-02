@@ -1,0 +1,155 @@
+body{
+font-family: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+	display: flex;
+}
+a{
+	text-decoration: none;
+}
+header{
+	background: #f6f6f6;
+	padding: 20px 0;
+}
+.header-conteiner{
+	width: 1400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.header-conteiner a{
+	color:black;
+	font-size: 16px;
+	margin-right: 63px;
+	padding: 27px 6px;
+}
+.header-conteiner a:hover{
+	background: yellow;
+}
+#menu-checkbox{
+	display: none;
+}
+ul{
+	display: flex;
+
+}
+nav{
+	margin-top: 20px;
+}
+.top-slide{
+	background-image: url(slider_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-top: 120px;
+    padding-bottom: 300px;
+}
+.top-conteiner{
+	width: 85%;
+	margin :0 auto;
+}
+.top-slide h2{
+	background: yellow;
+	display: inline;
+	font-size: 70px;
+	padding: 0 13px;
+}
+.top-slide :nth-child(2){
+	margin-bottom: 10px;
+}
+.top-slide p{
+	font-size: 24px;
+	background: #414146;
+	display: inline;
+	color: white;
+	padding: 0 4px;
+}
+.specialize-conteiner{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.specialize-conteiner h3{
+	font-size: 35px;
+	margin-top: 50px;
+}
+.specialize-conteiner p{
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.first-p{
+	font-size: 24px;
+	color: white;
+}
+.bottom-card{
+	background: #414146;
+	position: relative;
+	top: -30px;
+}
+.specialize-cards{
+	display: flex;
+	justify-content: space-between;
+}
+.portfolio{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.portfolio h4{
+	background: #424147;
+	padding: 0 4px;
+	display: inline-block;
+	color: yellow;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.portfolio p {
+	color: #424146;
+	font-size: 16px;
+}
+.toggles button{
+	border: none;
+	color: #424145;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 20px 5px;
+}
+.toggles button:after{
+	content: " / "
+}
+.toggles button:last-child:after{
+	content: "";
+}
+.posts{
+	width: 90%;
+	display: grid;
+	margin: 0 auto;
+	grid-template-columns: auto auto auto auto;
+}
+body{
+	height: 4000px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+	.header-conteiner{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	.main-menu{
+		display: none;
+	}
+}
